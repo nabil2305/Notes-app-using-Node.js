@@ -7,11 +7,11 @@
 // const msg=getNotes()
 // console.log(msg)
 const yargs=require('yargs')
-// const validator=require('validator')
-// console.log(validator.isURL('abc@gmail'))
-// const chalk=require('chalk')
-// console.log(chalk.red('hello worlds'))
-//console.log(process.argv[2])
+ const validator=require('validator')
+ console.log(validator.isURL('abc@gmail'))
+ const chalk=require('chalk')
+ console.log(chalk.red('hello worlds'))
+console.log(process.argv[2])
 yargs.command({
     command:'add',
     describe:'add a new note',
